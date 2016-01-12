@@ -1,0 +1,450 @@
+/* 
+    Created on : 06/12/2015, 11:27:53
+    Author     : Dijalma Silva <dijalmacz@gmail.com>
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+/* tamanhos de divs */
+
+.height-20{
+    height: 20px;
+}
+
+.width-100{
+    width: 100% !important;
+}
+
+/*background-cores*/
+
+.background-rosa{
+    background: hsl(340, 82%, 52%) !important;
+}
+
+.background-preto{
+    background: #000 !important;
+}
+
+.background-cinza-claro{
+    background: #f0f4f5 !important;
+}
+
+.background-rosa-claro{
+    background: #ffc0f9 !important;
+}
+
+/*botoes-estilos*/
+
+.btn-grande{
+    width: 500px;
+}
+
+.btn-medio{
+    width: 350px;
+}
+
+.btn-pequeno{
+    width: 200px;
+}
+
+.btn-pequenino{
+    width: 137px;
+}
+
+.btn{
+    border: 1px solid #cccccc !important;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 5px #1ebacc;
+}
+
+.btn:focus{
+    border: #1ebacc !important;
+    box-shadow: 0px 0px 10px #1ebacc;
+}
+
+.btn-menu{
+    color: #838383;
+    background: none !important;
+    border: none !important;
+}
+
+/*botoes-cores*/
+
+.btn-rosa-claro{
+    background: #D50080 !important;
+}
+
+.btn-rosa{
+    background: #ff66cc;
+}
+
+input[type="submit"]:hover{
+    color: white;
+    transition-duration: 1s;
+    background: #000 !important;
+    opacity: 0.8;
+    box-shadow: 0px 0px 8px 0px #000;
+}
+
+/*box-sombras*/
+
+.box-shadow-inferior {
+    box-shadow: 1px 1px 10px -1px #000;
+}
+
+/*texto-cores*/
+
+.texto-branco{
+    color: white !important;
+}
+
+.texto-preto{
+    color: #000;
+}
+
+.texto-rosa{
+    color: #D50080 !important;
+}
+
+
+/* tamanho texto */
+
+.font-pequena{
+    font-size: 10px;
+}
+
+.font-media{
+    font-size: 20px;
+}
+
+.font-grande{
+    font-size: 30px;
+}
+
+/*links-estilos*/
+
+
+/*bordas-formas*/
+
+.borda-hr{
+    border: 3px solid #191A1B;
+}
+
+
+/*margins*/
+
+.margin{
+    margin: 10px;  
+}
+
+.margin-right{
+    margin-right: 10px;
+}
+
+.no-margin{
+    margin: 0px !important;
+}
+
+.no-margin-top{
+    top: -10px !important;
+}
+
+.padding{
+    padding: 20px;
+}
+
+/*posicioes*/
+
+.absolute{
+    position: absolute;
+}
+
+.aEsquerda{
+    float: left;
+}
+
+.aDireita{
+    float: right;
+}
+
+
+/* Personalizar site*/
+
+.fundo-carrinho{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #191A1B;
+    height: 95px;
+    width: 110px;
+}
+
+.fundo-contador{
+    position: relative;
+    top: 0px;
+    left: 70px;
+    background: #1ebacc;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.menuPrincipal{
+    position: absolute;
+    top:10px;
+}
+
+.carrinhoImg{
+    position: relative;
+    top: 26%;
+    right: 10%;
+}
+
+.modal-itens{
+    background: #D50080;
+    width: 310px;
+    height: 300px;
+    float: left;
+    border-radius: 5px;
+    margin: 9px;
+}
+
+.modal-itens:hover{
+    background-image: url("../images/shoppingcarWhite.png");
+    background-repeat: no-repeat;
+    background-position: 98% 5px;
+    background-size: 30px;
+}
+
+.conteudo{
+    width: 98%;
+    margin: 1%;
+}
+
+.itemCar{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.modal-disponibilidade{
+    border: #cccccc solid 1px;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0 auto;
+    height: 100px
+}
+
+.modal-pecas{
+    border: #cccccc solid 1px;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0 auto;
+    height: 240px
+}
+
+.text-right{
+    text-align: right !important;
+    margin-right: 5px;
+}
+
+.modal-disponibilidade label{
+    display: inline;
+    padding: 5px;
+}
+
+.table-center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.modal-menu{
+    background: #191A1B;
+    width: 100%;
+    height: 60px;
+}
+
+#voltarMenu{
+    border: none !important;
+}
+
+.modal-menu ul li{
+    display: inline;
+}
+
+#menuPrincipal ul li a{
+    border-left: #cccccc solid 1px;
+}
+
+.span-menu:hover{
+    color: #D50080 !important;
+}
+
+.adicionaTamanho{
+    position: relative;
+    top: 8px;
+    background: #1ebacc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.adicionaTamanho a{
+    position: absolute;
+    bottom: -14px;
+    left: -5px;
+}
+
+.linhaHr{
+    margin: 0px;
+    background: #000;
+    height: 6px;
+}
+
+
+.footer-fixo{
+    border-top: 1px solid #a8a1a1;
+    position: fixed;
+    text-align: center !important;
+    width: 100%;
+    bottom: 0px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.mdl-menu a{
+    text-decoration: none !important;
+}
+
+.mdl-menu a li{
+    color: #5E5E5E;
+}
+
+/* navlist */
+
+nav ul li{
+    display: inline;
+}
+
+nav{
+    z-index: 0;
+}
+
+.manterAtras{
+    z-index: 0;
+} 
+
+.manterAfrente{
+    z-index: 99;
+}
+
+/*estilos - tabelas*/
+
+
+.tabela-produto{
+    width: 350px !important;
+    margin: 0 auto;
+}
+
+
+/*media-query*/
+
+@media(max-width:1345px){
+
+    .modal-itens{
+        width: 31.5%; 
+    }
+
+    .modal-menu{
+        height: 100%;
+    }
+
+    .modal-menu ul li{
+        display: block;
+    }
+
+    .modal-menu a{
+        border: none !important;
+    }
+}
+
+@media(max-width:1017px){
+
+    .modal-itens{
+        width: 45%; 
+    }
+
+}
+
+
+@media(max-width:500px){
+
+    .btn-pequenino{
+        margin-top: 20px;
+    }
+
+    .btn, .modal-disponibilidade{
+        width: 95% !important;
+    }
+
+    .modal-itens{
+        width: 95%;
+    }
+
+    .modal-menu{
+        height: 100%;
+    }
+
+    .modal-menu ul li{
+        display: block;
+    }
+
+    .modal-menu ul li a{
+        border-left: none !important;
+    }
+}
